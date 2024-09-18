@@ -7,7 +7,7 @@ const App = () => {
       <div className="relative z-0 bg-primary">
       <Navbar />
         <div className="main">
-          <video className= "vbg" src={video} autoPlay loop muted/>
+          <video className= "vbg" src={video} autoPlay loop muted playsInline/>
           <div className='overlay-content'>
             <Hero /> 
           </div>
