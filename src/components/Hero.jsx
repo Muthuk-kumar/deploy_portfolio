@@ -2,7 +2,7 @@ import React, {useEffect, useState, useRef} from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
-import Scrambler from '/src/scrambling-text/dist/scrambling-text';
+import Scrambler from '/src/scrambling-text/scrambling-text';
 
 
 {/*contains the 3d pc model */}
