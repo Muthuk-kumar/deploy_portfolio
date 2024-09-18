@@ -141,7 +141,7 @@ import {
       iconBg: "#ffffff",
       date: "Jan 2024 - Jul 2024",
       points: [
-        "Connected a precise converter to a microcontroller, making the system 40% faster at reading data and 35% more accurate for measuring weights.",
+        "Connected a precise ADC to a microcontroller, making the system 40% faster at reading data and 35% more accurate for measuring weights.",
         "Created controls for different tasks in factories, like filling containers, turning devices on and off, and making sure mistakes are avoided.",
         "Set up standard communication methods to ensure the system reliably sends and receives data without errors.",
         "Developed methods to clean up and adjust sensor signals, cutting down noise by 15% and improving the accuracy of weight measurements by 20%",
