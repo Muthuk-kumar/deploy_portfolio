@@ -6,7 +6,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import {styles} from '../styles';
 import {experiences} from '../constants';
 import { SectionWrapper } from '../hoc';
-import { textVariant } from '../utils/motion';
+import { textVariant } from '../Utils/motion';
 
 const ExperienceCard = ({experience}) =>(
   //try building on own unless the specific requirement is satisfied by a library like Te VerticalTimelineElement
