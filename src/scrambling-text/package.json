@@ -1,0 +1,60 @@
+{
+  "name": "scrambling-text",
+  "version": "1.2.0",
+  "description": "A very simple JavaScript library written in vanilla js for scrambling text.",
+  "main": "dist/scrambling-text.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch-all",
+    "lint": "eslint --ext js .",
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sogoagain/scrambling-text-js.git"
+  },
+  "keywords": [
+    "text",
+    "scramble",
+    "scrambler",
+    "scrambling",
+    "scrambling-text",
+    "scrambling text",
+    "text scrambler",
+    "effect",
+    "animation",
+    "transition"
+  ],
+  "author": {
+    "name": "sogoagain",
+    "email": "imyong0@gmail.com",
+    "url": "https://sogoagain.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sogoagain/scrambling-text-js/issues"
+  },
+  "homepage": "https://github.com/sogoagain/scrambling-text-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@types/jest": "^26.0.7",
+    "babel-jest": "^26.2.1",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "given2": "^2.1.7",
+    "jest": "^26.2.1",
+    "jest-plugin-context": "^2.9.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4"
+  }
+}
