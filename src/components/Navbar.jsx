@@ -7,17 +7,14 @@ import Scrambler from '/src/scrambling-text/scrambling-text';
 const Navbar = () => {
     
   const words = [
-    'cheen dabak tum tum',
-    'I play valorant in the evenings',
-    'Engineer',
-    'Professional gully Cricketer',
+    'Collector of unfinished side projects',
+    'I play valorant',
+    'Meme connoisseur',
     'I (do not) go to gym',
     'Coffee addict',
     'Master procrastinator',
-    'Meme connoisseur',
     'Professional nap taker',
-    'Fluent in sarcasm and Python',
-    'Collector of unfinished side projects',
+    'Fluent in sarcasm and C++',
     'Part-time philosopher'
   ];
   const [current_index, setCurrentIndex] = useState(0);
@@ -47,7 +44,7 @@ const Navbar = () => {
   const [toggle,setToggle] =  useState(false);
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#100000]`}
       >
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
           {/* special react router on DOM linK*/}
@@ -63,9 +60,13 @@ const Navbar = () => {
             >
               {/*also rendering a logo at the top*/}
               <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-              <p className="text-white text-[18px] font-bold cursor-pointer flex"> Muthukkumar RB 
-                &nbsp; | <span className="mt-1 text-secondary text-[13px] sm:block hidden">&nbsp; {text}
-              </span> </p> {/* <---> */}
+              <p className="text-white text-[18px] font-bold cursor-pointer flex flex-wrap">
+                Muthukkumar RB 
+                &nbsp; | 
+                <span className="text-secondary text-[12px] mt-1 sm:mt-1">
+                  &nbsp; {text}
+                </span>
+              </p>
             </Link>
             <ul className="list-none hidden sm:flex flex-row gap-10">
               {/* any thing inside a {} is a dynamic block of code */}

@@ -4,7 +4,6 @@ import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 import Scrambler from '/src/scrambling-text/scrambling-text';
 
-
 {/*contains the 3d pc model */}
 const Hero = () => {
   //define the text to be scrambled as state.
@@ -24,23 +23,23 @@ useEffect(() => {
         {/*Line below tells where the dot and line should start */}
         <div className="flex flex-col justify-center items-center mt-5">
           {/*the below two lines create the dot and the gradient line respectively */}
-          <div className="w-5 h-5 rounded-full bg-[#915eff]"/>
-          <div className="w-1 sm:h-80 h-40 violet-gradient"/>
+          <div className="w-5 h-5 rounded-full bg-[#880808]"/>
+          <div className="w-1 sm:h-80 h-40 blood-red-gradient"/>
         </div>
 
         {/*creating the text*/}
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-          Hi, I'm <span className="text-[#915eff]">{My_name}</span>
+          Hi, I'm <span className="text-[#DC143C]">{My_name}</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Driven by interest, crafting precise innovations.<br />
+          <p className={`${styles.heroSubText} mt-2`} style={{ color: '#DC143C' }}>
+            Driven by interest, crafting precise innovations.<br />
             Engineer. Tech enthusiast.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas /> {/* the three 3d computer component. User defined */}
+      {/*  commenting for using bg <ComputersCanvas /> {/* the three 3d computer component. User defined */}
       
       {/* this div contains the scroll indication gif*/}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items -center">

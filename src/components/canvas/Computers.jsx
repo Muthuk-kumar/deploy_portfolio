@@ -10,8 +10,8 @@ const Computers = ( {isMobile} ) => {
   return (
     <mesh>
       {/* Use mesh and not div for 3D models */}
-      <hemisphereLight intensity={0.75} groundColor="black" /> {/*Need light to see any model*/}
-      <pointLight intensity={1} />  {/*straight facing point light */}
+      <hemisphereLight intensity={0.5} groundColor="black" /> {/*Need light to see any model*/}
+      <pointLight intensity={0.5} />  {/*straight facing point light */}
       <spotLight 
         position={[-20,50,10]}
         angle={0.12}
