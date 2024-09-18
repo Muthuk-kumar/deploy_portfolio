@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; {/* used to navigate to other parts of 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import {logo, menu, close } from '../assets';
-import Scrambler from '/src/scrambling-text/dist/scrambling-text';
+import Scrambler from '/src/scrambling-text/scrambling-text';
 const Navbar = () => {
     
   const words = [
