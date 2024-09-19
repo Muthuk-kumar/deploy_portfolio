@@ -39,7 +39,7 @@ const Contact = () => {
         to_name: 'Muthukkumar',
         from_email: form.email,
         to_email: 'muthukkumarrb@gmail.com',
-        message: form.message,
+        message: `${form.message} \n\nSender's Email: ${form.email}`,
       },
       'Q39EQByQZPgvfQwo2'  //public 
     )
