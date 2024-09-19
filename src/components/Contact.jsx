@@ -30,7 +30,7 @@ const Contact = () => {
           //template ID: template_7hxquhu
           //service ID: service_9ay7yl8
           //public key: Q39EQByQZPgvfQwo2
-    
+          const fullMessage = `${form.message} \n\nSender's Email: ${form.email}`; 
       emailjs.send(
         'service_9ay7yl8',  //service
         'template_7hxquhu',  //template
@@ -39,7 +39,7 @@ const Contact = () => {
         to_name: 'Muthukkumar',
         from_email: form.email,
         to_email: 'muthukkumarrb@gmail.com',
-        message: `${form.message} \n\nSender's Email: ${form.email}`,
+        message: fullMessage,
       },
       'Q39EQByQZPgvfQwo2'  //public 
     )
